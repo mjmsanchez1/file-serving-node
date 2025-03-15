@@ -1,0 +1,41 @@
+/* Apply a slightly dark blue background to the whole page */
+body {
+    background-color: #87CEEB; /* Sky blue */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centered container with a light blue background */
+.container {
+    background-color: #B0E0E6; /* Light blue */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+/* Upload button styling */
+button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+/* File input styling */
+input[type="file"] {
+    margin: 10px 0;
+}
